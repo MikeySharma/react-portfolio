@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px){
+    .top-header{
+        position: static;
+    }
+    .header-links{
+        display: none !important;
+    }
+    .hamburger-menu{
+        display: block !important;
+    }
+    .bm-burger-button{
+        display: block !important;
+    }
+    .header-bottom{
+        display: none !important;
+    }
+    .home-wrapper-1 .img-holder{
+        display: none !important;
+    }
+    .home-wrapper-1 .home-res-1{
+        grid-column: span 12/ span 12;
+        height: 40em;
+        background-image: url('./assets/Picsart_23-11-08_14-46-53-572.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-wrapper-1 .home-res-2{
+        display: none;
+    }
+    .home-wrapper-1 .home-info h1:first-child{
+        font-size: 2.6em;
+    }
+    .home-wrapper-1 .home-info h5{
+        font-size: 1.5em;
+        width: 17rem;
+    }
+    .about-wrapper{
+        padding: 15px !important;
+    }
+    .about-wrapper .about-img-holder{
+       display: none;
+    }
+    .about-wrapper .gap-20{
+        gap: 10px;
+    }
+    .about-wrapper .about-info{
+        grid-column: span 12 / span 12;
+    }
+    .about-wrapper .hire-me{
+        grid-column: span 12 / span 12;
+    }
+    .service-wrapper .service-info{
+        grid-column: span 12 / span 12;
+    }
+    .service-wrapper .service-card-holder{
+        grid-column-start: unset;
+        grid-column: span 12 / span 12;
+    }
+    .works-wrapper{
+        padding: 15px !important;
+    }
+    .works-wrapper a{
+        font-size: .8em !important;
+    }
+    .works-wrapper .work-head{
+        grid-column-start: unset;
+        grid-column: span 12 / span 12;
+    }
+    .works-wrapper .work-card-holder{
+        grid-column-start: unset;
+    }
+    .works-wrapper .work-card-holder .work-card{
+        grid-column: span 6 / span 6;
+    }
+    .work-info h2{
+        font-size: 1.1em;
+    }
+    .hire-wrapper{
+        padding: 15px !important;
+    }
+    .hire-wrapper .available-card h1{
+        font-size: 1.1em;
+        text-align: center;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
+    }
+    .hire-wrapper .available-card p{
+        font-size: .8em;
+        text-align: center;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
+    }
+    .footer-wrapper{
+        padding: 2px;
+    }
+    .footer-wrapper .logo{
+        font-size: .8rem;
+    }
+    .footer-wrapper p{
+        font-size: .6rem;
+    }
+    .footer-wrapper h3{
+        font-size: .8rem;
+    }
+    .about-page-wrapper .home-res-1 .work-card,
+    .about-page-wrapper .home-res-2 .work-card{
+        grid-column: span 12 /span 12;
+    }
+    .contact-wrapper .contact-item{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 500px){
+    .service-card-holder .card-holder{
+        grid-column: span 2 / span 2;
+    }
+    .works-wrapper .work-card-holder .work-card{
+        grid-column: span 12 / span 12;
+    }
+}

@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Happy Monkey
+- Font Author: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name "Happy Monkey".
+- Font Source: http://fonts.gstatic.com/s/happymonkey/v14/K2F2fZZcl-9SXwl5F_C4R_OABwD2bWqVjw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

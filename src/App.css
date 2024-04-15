@@ -38,12 +38,13 @@ ul li {
   background-color: var(--bg-dark);
   position: fixed;
   top: 0;
-  left: 2.5em;
+  left: 0px;
   z-index: 1000;
 }
 
 .top-header .logo-header {
   background: transparent;
+  margin-left: 1.5em;
   padding: 2px 8px;
   border-radius: 10px;
   transition: all ease .4s;
